@@ -1,0 +1,25 @@
+.info-header {
+    display: flex;
+}
+
+.info-header-tab {
+    cursor: pointer;
+}
+
+.info-header-tab:not(:last-child) {
+    margin-right: 10px;
+}
+
+.info-tabcontent {
+    margin-top: 20px;
+    border: 1px solid black
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
